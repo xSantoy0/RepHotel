@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Josefin+Sans:wght@600&family=Kanit:wght@500&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nanum+Gothic+Coding&family=Oswald&family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Freeman&family=Josefin+Sans:wght@600&family=Kanit:wght@500&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nanum+Gothic+Coding&family=Oswald&family=Vina+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #e0ecd4;
+    width: 100%;
+}
+
+/*--------------
+estilo Encabezado
+-------------*/
+header{
+    box-sizing: border-box;
+    background: rgb(19, 19, 59);
+    padding: 35px ;
+    width: 100%;
+    height: 140px;
+    position: relative;
+}
+h1{
+    color: azure;
+    font-size: 66px;
+    text-align: center;
+    font-family: "Nanum Gothic Coding", monospace;
+    font-style: normal;
+}
+
+/*--------------
+estilo pie de pagina
+-------------*/
+
+footer { 
+    width: 100%;
+    background: rgb(19, 19, 59);
+}
+
+footer div {
+    display: table;
+    margin: 0 auto;
+    margin-left: 80px;
+    color: #777;
+}
+
+.info {
+    display: table-cell;
+    width: 900px;
+    padding-top: 20px;
+}
+
+.titulo_footer1 {
+    color: #FFF;  
+    font-size: 20px;
+}
+.titulo_footer2 {
+    color: #FFF;  
+    font-size: 20px;
+    margin-left: 260px;
+}
+.info p{
+    padding: 30px 0 30px 0;
+    font-family: "Nanum Gothic Coding", monospace;
+    text-align: justify;
+}
+p{
+    padding-bottom: 5px;
+    font-family: "Nanum Gothic Coding", monospace;
+    text-align: center;
+    color: #d7dde3;
+}
+
+footer a {
+    color: #999;
+    font-family: "Nanum Gothic Coding", monospace;
+}
+
+footer a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+.redes_sociales {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.redes_sociales i{
+   font-size: 40px;
+   padding-left: 20px   ;
+}
